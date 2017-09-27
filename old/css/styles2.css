@@ -1,0 +1,220 @@
+body {
+    font: 15px/1.5 sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;   
+}
+
+.button_1{
+    height: 38px;
+    width: 262px;
+    border:0px;
+    background-color: #57d175;
+    color: #fff;
+    font: 15px/1.5 sans-serif;
+}
+
+.button_1:hover{
+    background-color: #4CAF50; /* Green */
+}
+
+.dark {
+    padding:15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #878787;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #57d175;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #fff 1px solid;
+}
+
+header img{
+    max-width: 250px;
+}
+
+header a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 5px 0 5px;
+    font-weight: 700;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: #858585;
+}
+
+header a:hover{
+    color:#ccc;
+}
+
+#showcase{
+    min-height:400px;
+  /*  background:url('../img/banner.png') no-repeat 0 -40px;*/
+   /* background-size:100%;*/
+    background-color: #57d175;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: #fff 1px solid;
+}
+
+#showcase h2 div{
+   /* margin-top: 100px; */
+    font-size: 65px;
+    margin-bottom: 10px;
+    /*text-shadow: 2px 2px #000;*/
+}
+
+#showcase h2 .ta:hover{
+    color: mediumpurple
+    
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase-left{
+    float:left;
+    width:40%;
+}
+
+#showcase-right{
+    float:right;
+    width:55%;
+}
+
+#showcase img{
+    width:100%;
+    max-width: 400px;
+}
+
+#showcase #arrows{
+    font-size: 120px;
+    text-align: right
+}
+
+/* Newsletter */
+#newsletter{
+    padding: 15px;
+    color:#fff;
+    background-color: mediumpurple
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+}
+
+#newsletter input{
+    padding:4px;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 250px;
+    display: block;
+}
+
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box img{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+/* Article */
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width:90%;
+    min-height: 25px;
+}
+
+aside .button_1{
+    width:50%;
+    font-size: 12px;
+}
+    
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+/* Footer */
+footer {
+    padding:20px;
+    margin-top: 20px;
+    color:#fff;
+    background-color:#878787;
+    text-align: center;
+    font-weight: 600
+}
+
+footer h2 {
+    font-size: 15px;
+}
