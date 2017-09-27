@@ -214,16 +214,25 @@ p.from{
 }
 
 /* Footer */
-.footer{
+footer{
     background: #57D175;
-    display:flex;
     color:#fff;
-    margin:auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p{
+    margin: 0;
+}
+
+.footer{
+    display:flex;
+    width: 90%;
     justify-content: center;
-    margin-top: 20px;
-    
+    justify-content: space-between;
+    margin: auto;
 }
 
 .footer-links{
-    margin-left: 10px;
+
 }
