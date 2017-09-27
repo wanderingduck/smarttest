@@ -16,21 +16,23 @@ header .container{
 
 }
 
-.page-container{
+.container{
+    width: 80%;
     margin: auto;
-    width: 90%;
+}
+
+.indent{
+    padding-left: 30px
 }
 
 #page-top{
     background: #57D175;
     width: 100%;
     color:#fff;
-    padding:60px 20px 10px 20px;
+    padding-top:60px;
+    padding-bottom: 10px;
 }
 
-.section-title{
-    padding: 0 0 0 20px;
-}
 
 /* Header */
 header{
@@ -209,4 +211,19 @@ p.from{
 
 .p-table td{
     width:50%;
+}
+
+/* Footer */
+.footer{
+    background: #57D175;
+    display:flex;
+    color:#fff;
+    margin:auto;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.footer-links{
+    margin-left: 10px;
 }
