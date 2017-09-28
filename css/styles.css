@@ -22,7 +22,8 @@ header .container{
 }
 
 .indent{
-    padding-left: 30px
+    padding-left: 20px;
+    min-width:280px
 }
 
 #page-top{
@@ -141,11 +142,14 @@ nav ul li a{
 #package-layout{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap
 }
 
 .package{
+    margin-bottom: 10px;
     background: #F0F0F0;
     flex-basis: 24%;
+    min-width: 300px;
 }
 
 .p-price{
@@ -209,9 +213,29 @@ p.from{
     display: flex;
 }
 
-.p-table td{
-    width:50%;
+.t-container{
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.t-container h3{
+    font-size: 14px
+}
+
+.t-container td{
+    font-size: 12px
+}
+
+/* Testimonials Front */
+
+.testimonial{
+    text-align: center;
+}
+.testimonial img{
+    width:100%;
+    min-width: 600px;
+    max-width: 700px;
+}   
 
 /* Footer */
 footer{
@@ -219,6 +243,7 @@ footer{
     color:#fff;
     margin-top: 30px;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 footer p{
@@ -231,8 +256,14 @@ footer p{
     justify-content: center;
     justify-content: space-between;
     margin: auto;
+    flex-wrap: wrap
 }
 
 .footer-links{
+   width:280px;
+    margin-bottom: 20px;
+}
 
+.f-icon{
+    font-size: 20px;
 }
