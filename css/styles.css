@@ -1,5 +1,5 @@
 body {
-    font: 15px/1.5 sans-serif;
+    font: 15px/1.5 Sans-Serif;
     color: #575B5A;
     padding: 0;
     margin: 0;
@@ -13,7 +13,10 @@ header .container{
     overflow: hidden;
     display: flex;
     align-items: center;
+}
 
+.ta:hover{
+    color: mediumpurple;
 }
 
 .container{
@@ -78,6 +81,7 @@ nav ul li a{
 
 /* Showcase */
 .showcase{
+    font-family: Geneva, Tahoma, Sans-Serif;
     height:100vh;
     padding-bottom: 0;
     background: #57D175;
@@ -279,7 +283,7 @@ footer p{
 @media only screen and (min-width: 1170px) { .side-button{
     width: 81px;
     height: 218px;
-    background-image: ("https://wanderingduck.github.io/smarttest/img/free-consultation-button-contrast.png");
+    background-image:url(https://smartsprout.co.uk/free-consultation-button-contrast.png);
     background-repeat: no-repeat;
     position: fixed;
     margin-top: 140px;
