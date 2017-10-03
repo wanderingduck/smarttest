@@ -1,7 +1,92 @@
-/**{
+/* Global */
+*{
     margin: 0;
     padding: 0;
-}*/
+}
+
+p{
+    margin: 1em 0;
+}
+
+h1{
+    margin: 20px 0;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+h4{
+    margin: 20px 0;
+}
+
+h5{
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+ul.ul-indent, ol.ul-indent{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+ul.ul-indent li{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+li{
+    color: #57D175;
+}
+
+a{
+    color: #57D175;
+}
+
+/*- - - - read more - - - - */
+
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
 
 body {
     font: 15px/1.5 Sans-Serif;
@@ -11,7 +96,6 @@ body {
     background-color: #fff;
 }
 
-/* Global */
 header .container{
     width: 80%;
     margin: auto;
@@ -32,6 +116,10 @@ header .container{
 .indent{
     padding-left: 20px;
     min-width:280px
+}
+
+.bold{
+    font-weight: 600;
 }
 
 #page-top{
@@ -333,7 +421,18 @@ p.from{
 .testimonial img{
     width:100%;
     max-width: 700px;
-}   
+}
+
+/* SEO Guides */
+
+#guides-banner{
+background:cornflowerblue;
+height:100vh;
+width:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
 
 /* Footer */
 footer{
